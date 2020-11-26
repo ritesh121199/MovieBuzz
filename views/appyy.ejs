@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>result page</title>
+	
+</head>
+<body>
+     <h1>results are</h1>
+     <ul>
+     	<% data["Search"].forEach(function(mov){ %>
+
+     	<li> <%=mov["Title"] %> </li>
+     	<% }); %>
+     </ul>
+     <a href="/">search another</a>
+</body>
+</html>
